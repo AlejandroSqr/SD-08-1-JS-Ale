@@ -1,10 +1,8 @@
-class Player {
-    constructor(first, last){
-        this.firstName = first;
-        this.lastName = last;
+let Player = class Personaje1 {
+    constructor(name, lastname) {
+        this.name = name;
+        this.lastname = lastname;
     }
-}
+};
 
-let p1 = new Player("New", "Name");
-
-console.log(p1);
+console.log(Player.name);
